@@ -5,7 +5,7 @@ Follow the instructions below to install ATUSB_Core
 - Run Teensy installer as (admin on Windows)
     -Skip driver install (unless you will actually use a Teensy)
     -Install any added libraries if desired
-- Copy the ATUSB_Core folder into <InstallDir>/Arduino/hardware/ or <user_docs>/Arduino/hardware/
+- Copy the ATUSB_Core folder into ```<InstallDir>/Arduino/hardware/``` or ```<UserDocs>/Arduino/hardware/```
 
 
 
