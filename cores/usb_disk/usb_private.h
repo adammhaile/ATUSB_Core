@@ -13,9 +13,9 @@ extern "C"{
  *
  **************************************************************************/
 
-#define VENDOR_ID               0x4242 //From Leonardo
-#define PRODUCT_ID              0x5036 //Temp for now
-#define STR_PRODUCT		L"TeensyCore Disk/Keyboard"
+#define VENDOR_ID               USB_VID 
+#define PRODUCT_ID              USB_PID 
+#define STR_PRODUCT             L"AVR USB Disk"
 #define STR_SERIAL_NUMBER	L"234567890ABCDEF0"
 
 // Some operating systems, especially Windows, may cache USB device

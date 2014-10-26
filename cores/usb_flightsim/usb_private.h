@@ -13,8 +13,8 @@ extern "C"{
  *
  **************************************************************************/
 
-#define VENDOR_ID               0x4242 //From Leonardo
-#define PRODUCT_ID              0x1036 //Temp for Now
+#define VENDOR_ID               USB_VID 
+#define PRODUCT_ID              USB_PID 
 
 // These determine how much USB bandwidth is allocated (1=fastest)
 #define FLIGHTSIM_TX_INTERVAL	1
@@ -32,7 +32,7 @@ extern "C"{
  *
  **************************************************************************/
 
-#define STR_PRODUCT             L"TeensyCore Flight Sim Controls"
+#define STR_PRODUCT             L"AVR USB Flight Sim"
 #define ENDPOINT0_SIZE          64
 
 // Some operating systems, especially Windows, may cache USB device

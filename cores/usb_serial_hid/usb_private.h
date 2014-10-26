@@ -15,8 +15,8 @@ extern "C"{
 
 // You can change these to give your code its own name.  On Windows,
 // these are only used before an INF file (driver install) is loaded.
-#define STR_MANUFACTURER        L"TeensyCore"
-#define STR_PRODUCT             L"Serial+Keyboard+Mouse+Joystick"
+#define STR_MANUFACTURER        L"Generic"
+#define STR_PRODUCT             L"AVR USB Serial HID"
 #define STR_SERIAL		L"Serial"
 
 // Some operating systems, especially Windows, may cache USB device
@@ -46,8 +46,8 @@ extern "C"{
 // Windows, even though the driver is supplied by Microsoft, an
 // INF file is needed to load the driver.  These numbers need to
 // match the INF file.
-#define VENDOR_ID               0x4242 //From Leonardo
-#define PRODUCT_ID              0x6036 //Temp for now
+#define VENDOR_ID               USB_VID 
+#define PRODUCT_ID              USB_PID 
 
 // When you write data, it goes into a USB endpoint buffer, which
 // is transmitted to the PC when it becomes full, or after a timeout

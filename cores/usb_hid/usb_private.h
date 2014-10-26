@@ -13,8 +13,8 @@ extern "C"{
  *
  **************************************************************************/
 
-#define VENDOR_ID               0x4242 //From Leonardo
-#define PRODUCT_ID              0x2036 //Temp for now
+#define VENDOR_ID               USB_VID 
+#define PRODUCT_ID              USB_PID 
 #define TRANSMIT_FLUSH_TIMEOUT  4   /* in milliseconds */
 #define TRANSMIT_TIMEOUT        25   /* in milliseconds */
 
@@ -46,7 +46,7 @@ extern "C"{
 // computer unless the vendor or product ID numbers change, or the
 // "bcdDevice" revision code is increased.
 
-#define STR_PRODUCT             L"TeensyCore Keyboard/Mouse/Joystick"
+#define STR_PRODUCT             L"AVR USB HID"
 #define ENDPOINT0_SIZE          64
 
 #define DEBUG_INTERFACE		2
@@ -82,7 +82,7 @@ extern "C"{
 
 #elif defined(__AVR_AT90USB162__)
 
-#define STR_PRODUCT             L"TeensyCore Keyboard/Mouse"
+#define STR_PRODUCT             L"AVR USB HID"
 #define ENDPOINT0_SIZE          32
 
 #define DEBUG_INTERFACE		2

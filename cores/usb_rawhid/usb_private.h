@@ -13,8 +13,8 @@ extern "C"{
  *
  **************************************************************************/
 
-#define VENDOR_ID               0x4242 //From Leonardo
-#define PRODUCT_ID              0x4036 //Temp for now
+#define VENDOR_ID               USB_VID 
+#define PRODUCT_ID              USB_PID 
 #define RAWHID_USAGE_PAGE	0xFFAB  // recommended: 0xFF00 to 0xFFFF
 #define RAWHID_USAGE		0x0200  // recommended: 0x0100 to 0xFFFF
 
@@ -34,8 +34,8 @@ extern "C"{
  *
  **************************************************************************/
 
-#define STR_PRODUCT             L"TeensyCore RawHID Device"
-#define STR_RAWHID		L"TeensyCore RawHID"
+#define STR_PRODUCT             L"AVR RawHID"
+#define STR_RAWHID		L"RawHID"
 #define STR_DEBUG		L"Emulated Arduino Serial"
 #define ENDPOINT0_SIZE          64
 

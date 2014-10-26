@@ -20,8 +20,6 @@ atmega32u4.bootloader.lock_bits=0x2F
 
 atmega32u4.build.vid=0x4242
 atmega32u4.build.pid=0x8037
-atmega32u4.build.usb_manufacturer=Generic
-atmega32u4.build.usb_product=AVR USB Serial
 
 atmega32u4.build.mcu=atmega32u4
 atmega32u4.build.f_cpu=16000000L
