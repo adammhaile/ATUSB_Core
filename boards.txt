@@ -22,11 +22,11 @@ atmega32u4.upload.disable_flushing=true
 
 #modfied fuses for 512B boot size and 4.3V brownout
 atmega32u4.bootloader.low_fuses=0xff
-atmega32u4.bootloader.high_fuses=0xde
-atmega32u4.bootloader.extended_fuses=0xc0
+atmega32u4.bootloader.high_fuses=0xdf
+atmega32u4.bootloader.extended_fuses=0xc8
 
-atmega32u4.bootloader.path=caterina
-atmega32u4.bootloader.file=Caterina-Leonardo.hex
+atmega32u4.bootloader.path=empty
+atmega32u4.bootloader.file=32u4_empty.hex
 atmega32u4.bootloader.unlock_bits=0x3F
 atmega32u4.bootloader.lock_bits=0x2F
 
