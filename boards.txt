@@ -18,8 +18,8 @@ atmega32u4.bootloader.file=32u4_empty.hex
 atmega32u4.bootloader.unlock_bits=0x3F
 atmega32u4.bootloader.lock_bits=0x2F
 
-atmega32u4.build.vid=0x4242
-atmega32u4.build.pid=0x8037
+atmega32u4.build.vid=0x1D50
+atmega32u4.build.pid=0x60AB
 
 atmega32u4.build.mcu=atmega32u4
 atmega32u4.build.f_cpu=16000000L
